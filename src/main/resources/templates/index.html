@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset = "ISO-8859-1" />
+    <link href = "css/styles.css" rel = "stylesheet"/>
+    <title>Spring Boot Application</title>
+</head>
+<body>
+<h4>Welcome to Thymeleaf Spring Boot web application</h4>
+<select name="brand_key" id="brand_key" class="form-control">
+    <option value="0">select</option>
+    <option th:each="brand : ${brandlist}"
+            th:value="${brand.brand_id}"
+            th:text="${brand.brand_name}">
+    </option>
+</select>
+</body>
+</html>

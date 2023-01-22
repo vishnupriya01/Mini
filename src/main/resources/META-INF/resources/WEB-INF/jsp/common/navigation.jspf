@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="logo.png" alt="Mini-ERP" width="30" height="24">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!--Home Start -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="welcome">Home</a>
+            </li>
+            <!--Master Start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Master
+              </a>
+              <ul class="dropdown-menu">
+               <li><hr class="dropdown-divider">Supplier</li>
+                <li><a class="dropdown-item" href="/add-supplier">Add Supplier</a></li>
+                <li><a class="dropdown-item" href="/view-suppliers">View Supplier</a></li>
+                <li><hr class="dropdown-divider">Customer</li>
+                <li><a class="dropdown-item" href="/add-customer">Add Customer</a></li>
+                <li><a class="dropdown-item" href="view-customers">View Customer</a></li>
+                <li><hr class="dropdown-divider">Product</li>
+                <li><a class="dropdown-item" href="add-brand">Brand</a></li>
+                <li><a class="dropdown-item" href="viewBrand">View Brand</a></li>
+                <li><a class="dropdown-item" href="add-category">Category</a></li>
+
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <!--Transaction Start -->
+             <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Transaction
+                          </a>
+                          <ul class="dropdown-menu">
+                           <li><hr class="dropdown-divider">Purchase</li>
+                            <li><a class="dropdown-item" href="/purchase-order">Purchase Order</a></li>
+                            <li><a class="dropdown-item" href="/purchase-return">Purchase Return</a></li>
+                            <li><hr class="dropdown-divider">Sales</li>
+                            <li><a class="dropdown-item" href="/sales-order">Sales Order</a></li>
+                            <li><a class="dropdown-item" href="/sales-return">Sales Return</a></li>
+
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
