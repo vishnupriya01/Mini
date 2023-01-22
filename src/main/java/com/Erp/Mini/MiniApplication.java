@@ -10,4 +10,5 @@ public class MiniApplication {
 		SpringApplication.run(MiniApplication.class, args);
 	}
 //try to commit to check that it works
+	//this change is from dev-repository01
 }
